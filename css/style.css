@@ -26,6 +26,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 ul,
 ol {
+  margin: 0;
   list-style: none;
 }
 
@@ -35,6 +36,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   color: #040404;
+  background-color: #FFFFFF;
 }
 
 @font-face {
@@ -58,6 +60,14 @@ body {
   left: 0;
   padding-top: 25px;
   background: linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.list-nav-left {
+  padding-left: 25px;
+}
+
+.list-nav-right {
+  padding-right: 58px;
 }
 
 .nav {
@@ -84,7 +94,7 @@ body {
 .promo-wrapper {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 90px;
   text-align: center;
 }
 
@@ -96,12 +106,18 @@ body {
   background-image: url(../images/Logo-promo\ 14.png);
 }
 
+.Logo-lamba-icon {
+  width: 83px;
+  height: 96px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .logo-title {
   font-family: "Impact", sans-serif;
   font-weight: 400;
   font-size: 76px;
-  line-height: 1.22;
-  letter-spacing: 0.02px;
+  line-height: 1.23;
+  letter-spacing: 0.02em;
   margin-bottom: 10px;
 }
 
@@ -133,7 +149,120 @@ body {
 }
 
 .arrow-icon {
+  width: 30px;
+  height: 30px;
+  fill: tomato;
+}
+
+.arrow {
   margin-top: auto;
   margin-bottom: 30px;
   align-self: center;
 }
+/* ================  =============== */
+.wrapper {
+  max-width: 914px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.world-final {
+  
+}
+
+.world-final {
+}
+
+.conteiner {
+}
+
+.world-final-wrapper {
+  padding-top: 100px;
+}
+
+.world-final-text-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.world-final-title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.19;
+  text-transform: uppercase;
+
+  margin-bottom: 34px;
+}
+
+.world-final-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.world-final-accent {
+  min-width: 438px;
+}
+
+.world-final-img {
+  /* object-fit: cover; */
+  margin-top: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.super-teams-wrapper {
+  padding-top: 100px;
+  display: flex;
+}
+
+.super-teams {
+}
+
+.super-teams-title {
+  margin-bottom: 30px;
+}
+
+.one-text {
+  margin-bottom: 30px;
+}
+
+.super-teams-text {
+  min-width: 352px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.super-teams-img {
+  /* object-fit: cover; */
+  margin-left: 20px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.season-calendar-wrapper {
+  padding-top: 66px;
+  display: block;
+}
+
+.season-calendar {
+}
+
+.calendar-title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.19;
+  text-transform: uppercase;
+
+  margin-bottom: 30px;
+}
+
+.calendar-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.calendar {
+}
+
